@@ -25,14 +25,17 @@ Em caso de commits que devem ser realizados um dia antes da apresentação, o pr
 
 ### Recursos a se utilizar por etapa
 *A definir breve descrição de recursos humanos, de software e hardware utilizados em cada etapa.*
-## Recursos de Hardware
+
+#### Recursos de Hardware
 *Para o teste do jogo será utilizada a seguinte máquina:*
 
-*Processador: *AMD Ryzen 5 3400G with Radeon Vega Graphics 3.70 GHz*
-*Memória RAM: *16 GB, 3000 MHz*
-*Placa de Vídeo: *NVIDIA GeForce RTX 2060 6GB*
+* Processador: *AMD Ryzen 5 3400G with Radeon Vega Graphics 3.70 GHz*
+* Memória RAM: *16 GB, 3000 MHz*
+* Placa de Vídeo: *NVIDIA GeForce RTX 2060 6GB*
 
 *Para o desenvolvimento de cada etapa será utilizada as máquinas individuais de cada integrante do grupo.*
+
+#### Recursos de Software
 
 * Criação do repositório no Github: **Plataforma Github para criação do repositório**
 * Definição de gerência de projetos: *A definir*
@@ -48,13 +51,13 @@ Em caso de commits que devem ser realizados um dia antes da apresentação, o pr
 ### Documentos gerados em cada etapa
 
 *A definir documentos que são gerados em cada etapa do projeto.*
-* Criação do repositório no Github: *A definir*
-* Definição de gerência de projetos: *A definir*
-* Documento de requisitos, diagramas de classe e de caso de uso: *A definir*
-* Primeiro protótipo: *A definir*
-* Primeira etapa do artigo: *A definir*
-* Segundo protótipo: *A definir*
-* Segunda etapa do artigo: *A definir*
-* Protótipo final: *A definir*
-* Etapa final do artigo: *A definir*
+* Criação do repositório no Github: *O repositório em si*
+* Definição de gerência de projetos: *Readme apresentando os recursos solicitados e divisão de tarefa no Trello do grupo*
+* Documento de requisitos, diagramas de classe e de caso de uso: *Documento de requisitos com 25 requisitos funcionais e 10 requisitos não funcionais, diagrama de classes e caso de uso*
+* Primeiro protótipo: *Build com a infraestrutura inicial do jogo*
+* Primeira etapa do artigo: *PDF do artigo*
+* Segundo protótipo: *Build com as funções base do jogador e ambiente de jogo*
+* Segunda etapa do artigo: *PDF do artigo*
+* Protótipo final: *Build finalizada do projeto, apresentando as fases propostas no documento de requisitos.*
+* Etapa final do artigo: *PDF do artigo*
 * Teste de Software: *A definir*
