@@ -35,16 +35,22 @@ Em caso de commits que devem ser realizados um dia antes da apresentação, o pr
 
 *Para o desenvolvimento de cada etapa será utilizada as máquinas individuais de cada integrante do grupo.*
 
+#### Recursos Humanos
+
+*Quanto ao modelo que utilizaremos nesse projeto, iremos utilizar o modelo espiral. Esse decisão foi feita em visão à adaptabilidade que o modelo oferece, permitindo adaptações ao projeto de acordo com as opiniões do cliente no momento de apresentações e decisões do grupo de desenvolvimento no planejamento e análise de riscos do projeto.*
+
+*Quanto a partição das atividades, essa será decidida depois de cada entrega. Isso se dá por decidirmos usar uma adaptação do modelo espiral, no qual, ao final de uma apresentação (em teoria, avaliação do cliente), decidiremos em reunião a distribuição das atividades. Já que cada atividade não necessariamente possui uma divisão 1 à 1 e podem requirir um esforço maior quando comparada a outras.*
+
 #### Recursos de Software
 
 * Criação do repositório no Github: **Plataforma Github para criação do repositório**
-* Definição de gerência de projetos: *A definir*
-* Documento de requisitos, diagramas de classe e de caso de uso: *A definir*
-* Primeiro protótipo: Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo
+* Definição de gerência de projetos: **GitHub e Trello**
+* Documento de requisitos, diagramas de classe e de caso de uso: **Overleaf (Doc. Requisitos) e Draw.io (Diagramas)**
+* Primeiro protótipo: **Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo**
 * Primeira etapa do artigo: **Overleaf para escrita do artigo.**
-* Segundo protótipo: Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo
+* Segundo protótipo: **Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo**
 * Segunda etapa do artigo: **Overleaf para escrita do artigo.**
-* Protótipo final: Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo
+* Protótipo final: **Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo**
 * Etapa final do artigo: **Overleaf para escrita do artigo.**
 * Teste de Software: *A definir*
 
