@@ -25,6 +25,15 @@ Em caso de commits que devem ser realizados um dia antes da apresentação, o pr
 
 ### Recursos a se utilizar por etapa
 *A definir breve descrição de recursos humanos, de software e hardware utilizados em cada etapa.*
+## Recursos de Hardware
+*Para o teste do jogo será utilizada a seguinte máquina:*
+
+*Processador: *AMD Ryzen 5 3400G with Radeon Vega Graphics 3.70 GHz*
+*Memória RAM: *16 GB, 3000 MHz*
+*Placa de Vídeo: *NVIDIA GeForce RTX 2060 6GB*
+
+*Para o desenvolvimento de cada etapa será utilizada as máquinas individuais de cada integrante do grupo.*
+
 * Criação do repositório no Github: **Plataforma Github para criação do repositório**
 * Definição de gerência de projetos: *A definir*
 * Documento de requisitos, diagramas de classe e de caso de uso: *A definir*
