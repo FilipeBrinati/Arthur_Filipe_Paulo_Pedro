@@ -40,11 +40,11 @@ Em caso de commits que devem ser realizados um dia antes da apresentação, o pr
 * Criação do repositório no Github: **Plataforma Github para criação do repositório**
 * Definição de gerência de projetos: *A definir*
 * Documento de requisitos, diagramas de classe e de caso de uso: *A definir*
-* Primeiro protótipo: *A definir*
+* Primeiro protótipo: Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo
 * Primeira etapa do artigo: **Overleaf para escrita do artigo.**
-* Segundo protótipo: *A definir*
+* Segundo protótipo: Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo
 * Segunda etapa do artigo: **Overleaf para escrita do artigo.**
-* Protótipo final: *A definir*
+* Protótipo final: Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo
 * Etapa final do artigo: **Overleaf para escrita do artigo.**
 * Teste de Software: *A definir*
 
