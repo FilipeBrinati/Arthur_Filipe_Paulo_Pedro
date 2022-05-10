@@ -20,11 +20,7 @@ Em caso de commits que devem ser realizados um dia antes da apresentação, o pr
 * Etapa final do artigo: **02/08**
 * Teste de Software: **04/08**
 
-### Subdivisões das tarefas
-*A definir maneira de subdividir cada etapa, designando subtarefas com prazos diferentes e com divisão de tarefas para membros do grupo*
-
 ### Recursos a se utilizar por etapa
-*A definir breve descrição de recursos humanos, de software e hardware utilizados em cada etapa.*
 
 #### Recursos de Hardware
 *Para o teste do jogo será utilizada a seguinte máquina:*
@@ -37,9 +33,9 @@ Em caso de commits que devem ser realizados um dia antes da apresentação, o pr
 
 #### Recursos Humanos
 
-*Quanto ao modelo que utilizaremos nesse projeto, iremos utilizar o modelo espiral. Esse decisão foi feita em visão à adaptabilidade que o modelo oferece, permitindo adaptações ao projeto de acordo com as opiniões do cliente no momento de apresentações e decisões do grupo de desenvolvimento no planejamento e análise de riscos do projeto.*
+*Quanto ao modelo que utilizaremos nesse projeto, iremos utilizar o modelo espiral. Esse decisão foi feita em visão à adaptabilidade que o modelo oferece, permitindo mudanças e adaptações no projeto de acordo com as opiniões do cliente no momento de apresentações e decisões do grupo de desenvolvimento no planejamento e análise de riscos do projeto.*
 
-*Quanto a partição das atividades, essa será decidida depois de cada entrega. Isso se dá por decidirmos usar uma adaptação do modelo espiral, no qual, ao final de uma apresentação (em teoria, avaliação do cliente), decidiremos em reunião a distribuição das atividades. Já que cada atividade não necessariamente possui uma divisão 1 à 1 e podem requirir um esforço maior quando comparada a outras.*
+*Quanto a partição das atividades, essa será decidida depois de cada entrega. Isso se dá por decidirmos usar uma adaptação do modelo espiral, no qual, ao final de uma apresentação (em teoria, avaliação do cliente), decidiremos em reunião a distribuição das atividades. Já que cada atividade não necessariamente possui uma divisão 1 à 1 e podem requerir um esforço maior quando comparada a outras.*
 
 #### Recursos de Software
 
