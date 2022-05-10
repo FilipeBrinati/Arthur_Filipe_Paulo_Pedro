@@ -43,12 +43,12 @@ Em caso de commits que devem ser realizados um dia antes da apresentação, o pr
 * Definição de gerência de projetos: **GitHub e Trello**
 * Documento de requisitos, diagramas de classe e de caso de uso: **Overleaf (Doc. Requisitos) e Draw.io (Diagramas)**
 * Primeiro protótipo: **Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo**
-* Primeira etapa do artigo: **Overleaf para escrita do artigo.**
+* Primeira etapa do artigo: **Overleaf para escrita do artigo**
 * Segundo protótipo: **Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo**
-* Segunda etapa do artigo: **Overleaf para escrita do artigo.**
+* Segunda etapa do artigo: **Overleaf para escrita do artigo**
 * Protótipo final: **Uso das ferramentas Unity, UnityHub e Visual Studio Code para desenvolvimento do jogo**
-* Etapa final do artigo: **Overleaf para escrita do artigo.**
-* Teste de Software: *A definir*
+* Etapa final do artigo: **Overleaf para escrita do artigo**
+* Teste de Software: *Pacote Unity Test Framework (UTF) da unity*
 
 ### Documentos gerados em cada etapa
 
