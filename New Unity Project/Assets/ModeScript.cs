@@ -17,4 +17,8 @@ public class ModeScript : MonoBehaviour
     public void Voltar(){
         SceneManager.LoadScene("MenuStart");
     }
+
+    public void ModeVoltar(){
+        SceneManager.LoadScene("SelecaoModo");
+    }
 }

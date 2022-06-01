@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_Dropdown
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
@@ -25,7 +26,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
@@ -44,6 +47,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_GlyphAdjustmentRecord
     - TMPro.TMP_GlyphPairAdjustmentRecord
     - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
     - TMPro.TMP_Sprite
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
@@ -97,6 +105,30 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: OpcoesController
     methodName: SetVolume
+  - assembly: Assembly-CSharp
+    fullTypeName: ModeScript
+    methodName: ModeVoltar
+  - assembly: Assembly-CSharp
+    fullTypeName: ModeScript
+    methodName: PlayComp
+  - assembly: Assembly-CSharp
+    fullTypeName: ModeScript
+    methodName: PlayComp
+  - assembly: Assembly-CSharp
+    fullTypeName: ModeScript
+    methodName: PlayComp
+  - assembly: Assembly-CSharp
+    fullTypeName: ModeScript
+    methodName: PlayComp
+  - assembly: Assembly-CSharp
+    fullTypeName: ModeScript
+    methodName: PlayComp
+  - assembly: Assembly-CSharp
+    fullTypeName: ModeScript
+    methodName: PlayComp
+  - assembly: Assembly-CSharp
+    fullTypeName: ModeScript
+    methodName: ModeVoltar
   sceneClasses:
     Assets/Scenes/CompMode.unity:
     - Class: 1
@@ -119,9 +151,47 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1574}
+    - Class: 114
+      Script: {instanceID: 1694}
+    - Class: 114
+      Script: {instanceID: 2568}
+    - Class: 114
+      Script: {instanceID: 2772}
+    - Class: 114
+      Script: {instanceID: 3044}
+    - Class: 114
+      Script: {instanceID: 3928}
+    - Class: 114
+      Script: {instanceID: 4020}
+    - Class: 114
+      Script: {instanceID: 4784}
+    - Class: 114
+      Script: {instanceID: 4970}
+    - Class: 114
+      Script: {instanceID: 5524}
+    - Class: 114
+      Script: {instanceID: 5674}
+    - Class: 114
+      Script: {instanceID: 5980}
+    - Class: 114
+      Script: {instanceID: 7712}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/MenuOpcoes.unity:
     - Class: 1
@@ -145,37 +215,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1572}
-    - Class: 114
-      Script: {instanceID: 2560}
+      Script: {instanceID: 1574}
     - Class: 114
       Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2576}
     - Class: 114
-      Script: {instanceID: 3036}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 3798}
+      Script: {instanceID: 3044}
     - Class: 114
-      Script: {instanceID: 3914}
+      Script: {instanceID: 3720}
     - Class: 114
-      Script: {instanceID: 4828}
+      Script: {instanceID: 3810}
     - Class: 114
-      Script: {instanceID: 4876}
+      Script: {instanceID: 3928}
     - Class: 114
-      Script: {instanceID: 4956}
+      Script: {instanceID: 4842}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 4890}
     - Class: 114
-      Script: {instanceID: 5658}
+      Script: {instanceID: 4970}
     - Class: 114
-      Script: {instanceID: 5964}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 5974}
+      Script: {instanceID: 5674}
     - Class: 114
-      Script: {instanceID: 7014}
+      Script: {instanceID: 5980}
     - Class: 114
-      Script: {instanceID: 25196}
+      Script: {instanceID: 5990}
+    - Class: 114
+      Script: {instanceID: 7032}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -222,31 +292,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1574}
     - Class: 114
-      Script: {instanceID: 2144}
+      Script: {instanceID: 2152}
     - Class: 114
-      Script: {instanceID: 2560}
+      Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 3036}
+      Script: {instanceID: 3044}
     - Class: 114
-      Script: {instanceID: 3914}
+      Script: {instanceID: 3928}
     - Class: 114
-      Script: {instanceID: 4022}
+      Script: {instanceID: 4036}
     - Class: 114
-      Script: {instanceID: 4276}
+      Script: {instanceID: 4290}
     - Class: 114
-      Script: {instanceID: 4956}
+      Script: {instanceID: 4970}
     - Class: 114
-      Script: {instanceID: 5030}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 5658}
+      Script: {instanceID: 5674}
     - Class: 114
-      Script: {instanceID: 5964}
+      Script: {instanceID: 5980}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -284,9 +354,47 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1574}
+    - Class: 114
+      Script: {instanceID: 1694}
+    - Class: 114
+      Script: {instanceID: 2568}
+    - Class: 114
+      Script: {instanceID: 2772}
+    - Class: 114
+      Script: {instanceID: 3044}
+    - Class: 114
+      Script: {instanceID: 3928}
+    - Class: 114
+      Script: {instanceID: 4020}
+    - Class: 114
+      Script: {instanceID: 4784}
+    - Class: 114
+      Script: {instanceID: 4970}
+    - Class: 114
+      Script: {instanceID: 5524}
+    - Class: 114
+      Script: {instanceID: 5674}
+    - Class: 114
+      Script: {instanceID: 5980}
+    - Class: 114
+      Script: {instanceID: 7712}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/SelecaoModo.unity:
     - Class: 1
@@ -310,25 +418,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1574}
     - Class: 114
-      Script: {instanceID: 2560}
+      Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 3036}
+      Script: {instanceID: 3044}
     - Class: 114
-      Script: {instanceID: 3914}
+      Script: {instanceID: 3928}
     - Class: 114
-      Script: {instanceID: 4956}
+      Script: {instanceID: 4970}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 5658}
+      Script: {instanceID: 5674}
     - Class: 114
-      Script: {instanceID: 5964}
+      Script: {instanceID: 5980}
     - Class: 114
-      Script: {instanceID: 7692}
+      Script: {instanceID: 7712}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -624,7 +732,7 @@ ScriptsOnlyBuild:
     className: UnityOnControllerColliderHitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+      Hash: 27ec3360f0c0a6803ba71cc3106480b8
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshPro
@@ -658,6 +766,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 544465e396200a5079d32660e58d0a12
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OpcoesController
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -1132,17 +1246,11 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 544465e396200a5079d32660e58d0a12
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OpcoesController
   platform: 19
   scenePathNames:
   - Assets/Scenes/MenuStart.unity
   - Assets/Scenes/SelecaoModo.unity
-  - Assets/Scenes/PratMode.unity
   - Assets/Scenes/MenuOpcoes.unity
   - Assets/Scenes/CompMode.unity
-  playerPath: /home/paulo/Desktop/2022-1/eng-soft/build/build/New Unity Project.exe
+  - Assets/Scenes/PratMode.unity
+  playerPath: C:/Users/filip/Desktop/TestBuild/BUild_UFJF_win/New Unity Project.exe
