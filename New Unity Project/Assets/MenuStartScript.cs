@@ -15,8 +15,7 @@ public class MenuStartScript : MonoBehaviour
     }
 
     public void Options(){
-        SceneManager.LoadScene("SelecaoModo");
-        //mudar com a cena q o Paulo ta fazendo
+        SceneManager.LoadScene("MenuOpcoes");
     }
 
 }
