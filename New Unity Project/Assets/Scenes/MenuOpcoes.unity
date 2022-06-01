@@ -365,6 +365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 3bf653c96f9c3827585862d94f95e12f, type: 2}
+  resolutionDropdown: {fileID: 953846275}
 --- !u!1 &594676233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,7 +1269,19 @@ MonoBehaviour:
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 489316677}
+        m_TargetAssemblyTypeName: OpcoesController, Assembly-CSharp
+        m_MethodName: SetResolution
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &953846276
 MonoBehaviour:
@@ -2710,7 +2723,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 489316677}
         m_TargetAssemblyTypeName: OpcoesController, Assembly-CSharp
-        m_MethodName: volumeHandler
+        m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
