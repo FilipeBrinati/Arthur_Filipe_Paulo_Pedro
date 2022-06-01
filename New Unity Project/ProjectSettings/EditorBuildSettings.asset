@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SelecaoModo.unity
     guid: 9116e02163ab0014ba35b8ad70ff8afb
+  - enabled: 1
+    path: Assets/Scenes/PratMode.unity
+    guid: ad0028d1fa9a3e84fb80d71f4d05c8ef
+  - enabled: 1
+    path: Assets/Scenes/CompMode.unity
+    guid: e4fc7d6aa5315254f84d431fdf51a414
   m_configObjects: {}
