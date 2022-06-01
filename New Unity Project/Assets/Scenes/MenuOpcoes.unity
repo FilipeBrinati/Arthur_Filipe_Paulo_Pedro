@@ -361,9 +361,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 489316675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ae6b46b1267050439e29848788fba39, type: 3}
+  m_Script: {fileID: 11500000, guid: f8a71c251fb36e6b2af92d964cb6b2a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 3bf653c96f9c3827585862d94f95e12f, type: 2}
 --- !u!1 &594676233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2221,7 +2222,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 489316677}
-        m_TargetAssemblyTypeName: ModeScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: OpcoesController, Assembly-CSharp
         m_MethodName: Voltar
         m_Mode: 1
         m_Arguments:
@@ -2700,13 +2701,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 939174910}
   m_HandleRect: {fileID: 2032531831}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
-  m_WholeNumbers: 1
-  m_Value: 50
+  m_MinValue: -80
+  m_MaxValue: 20
+  m_WholeNumbers: 0
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 489316677}
+        m_TargetAssemblyTypeName: OpcoesController, Assembly-CSharp
+        m_MethodName: volumeHandler
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1959818031
 GameObject:
   m_ObjectHideFlags: 0

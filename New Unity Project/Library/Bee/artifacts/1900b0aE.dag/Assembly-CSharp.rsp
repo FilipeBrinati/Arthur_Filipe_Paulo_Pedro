@@ -341,6 +341,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/MenuStartScript.cs"
 "Assets/ModeScript.cs"
+"Assets/OpcoesController.cs"
 -langversion:9.0
 
 /deterministic
