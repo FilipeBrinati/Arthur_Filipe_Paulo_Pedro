@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/PratMode.unity
+- path: Assets/Scenes/telaarthur.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
