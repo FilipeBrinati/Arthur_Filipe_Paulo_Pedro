@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PratMode.unity
     guid: 14477ff3d221bb94495f87ebb53c1491
+  - enabled: 1
+    path: Assets/Scenes/telaarthur.unity
+    guid: 46a2b23b56f2b0c4d84521ff4f3b1afc
   m_configObjects: {}

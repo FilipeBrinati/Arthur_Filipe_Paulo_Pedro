@@ -838,7 +838,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 72471141}
         m_TargetAssemblyTypeName: ModeScript, Assembly-CSharp
-        m_MethodName: PlayComp
+        m_MethodName: PlayCompTestTree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1241,7 +1241,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 72471141}
         m_TargetAssemblyTypeName: ModeScript, Assembly-CSharp
-        m_MethodName: PlayComp
+        m_MethodName: PlayCompTestTree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1782,7 +1782,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 72471141}
         m_TargetAssemblyTypeName: ModeScript, Assembly-CSharp
-        m_MethodName: PlayComp
+        m_MethodName: PlayCompTestTree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
