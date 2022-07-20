@@ -28,6 +28,10 @@ public class CarController : MonoBehaviour
     [SerializeField] private Transform rearLeftWheelTransform;
     [SerializeField] private Transform rearRightWheelTransform;
 
+    public void Start() {
+        PlayerPrefs.SetInt("Checkpoint", 1);
+    }
+
     private void FixUpdate()
     {
         GetInput();
