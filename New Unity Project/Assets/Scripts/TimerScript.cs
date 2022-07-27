@@ -12,6 +12,7 @@ public class TimerScript : MonoBehaviour
     private float startTime;
     private string minutes;
     private string seconds;
+    public float t;
 
     private bool checkpoint = false;
     private bool finished = false;
@@ -24,9 +25,9 @@ public class TimerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float t = Time.time - startTime;
+        t = Time.time - startTime;
         if(Input.GetKeyDown("escape")){
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("MenuStart");
         }
         if(finished){
             return;
@@ -47,6 +48,7 @@ public class TimerScript : MonoBehaviour
     public void Finish()
     {
         finished = true;
+        PlayerPrefs.SetFloat("Time", t);
         timerText.color = Color.red;
     }
 

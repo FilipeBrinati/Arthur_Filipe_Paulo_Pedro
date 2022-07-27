@@ -113,6 +113,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   order: 0
+  cylinderLeft: {fileID: 5316447811486995815}
+  cylinderRight: {fileID: 5316447811137140950}
+  post: {fileID: 5316447811679914740}
 --- !u!1 &5316447811137140950
 GameObject:
   m_ObjectHideFlags: 0
