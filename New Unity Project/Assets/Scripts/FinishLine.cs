@@ -35,7 +35,7 @@ public class FinishLine : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(order == last){
+        if(PlayerPrefs.GetInt("Checkpoint") == last){
             GameObject.Find("Controller").SendMessage("Finish");
         }
         else if(order == PlayerPrefs.GetInt("Checkpoint")) {
